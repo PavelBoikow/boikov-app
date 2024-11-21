@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.wrapper {
+  max-height: 400px;
+}
+.normal-size{
+  width: 80%; 
+  height: 60%;  
+}
+
+.HomePlayerModalStyle.normal-size .ant-modal-content {
+  margin: 5vh auto auto;
+  width: 500px;
+  transform-origin: 472px 160.062px;
+}
+
+.HomePlayerModalStyle.full-size .ant-modal-content {
+  margin: 5vh auto auto;
+  width: 1000px; 
+  transform-origin: 472px 160.062px;
+}
